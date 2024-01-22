@@ -54,3 +54,22 @@
    - Use bank.json for data source 
    [bank.json](https://github.com/oclockvn/learning-projects/files/13947239/bank.json)
    - use JsonDeserialize/JsonSerialize
+
+## 5. Film Library
+
+You all know and love IMDB, so how about making a little film library database of your own? This will be a desktop app that stores data about movies you own/love/want to watch. The app should be able to:
+
+- Store data on a new movie
+- Retrieve data on a movie that exists in the library
+- Include search functionality and the ability to edit entries
+
+You can use Microsoft SQL Server for the database and Visual Studio for the front end. What other features can you think of adding? Maybe you could make it pull data from IMDB to populate your applications. Maybe it could pull images, movie posters, and trailers from the web.
+
+**Technical**
+- Use httpclient to fetch data from https://www.omdbapi.com/
+- Use entity framework to store data to sqlserver db
+- Use dependency injection to manage dependencies
+- Use interface
+
+**Wireframe** 
+[movie-proj-design.pdf](https://github.com/oclockvn/learning-projects/files/14011914/movie-proj-design.pdf)
